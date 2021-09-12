@@ -1,0 +1,54 @@
+//Estilos generales
+
+.new-background-color{
+    --background: #06468f;
+}
+
+ion-back-button{
+    color: #fff;
+}
+
+
+ion-content {
+    --background: url('/assets/img/opcion2.jpg') no-repeat center center / cover;
+}
+
+ion-title{
+    color: #fff;
+}
+
+//----------------------prev-Cards-----------------------
+
+h1{
+    text-align: center; 
+    color: #06468f; 
+    font-weight: bold;
+}
+
+//----------------------Cards-----------------------
+
+ion-card{
+    --ion-background-color:linear-gradient(#5aa2eb, #053294);
+}
+
+.subtitulo{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.titulo{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contenido{
+    text-align: left;
+    justify-content: space-around;
+    color: #fff;
+}
+
+

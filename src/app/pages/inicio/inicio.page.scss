@@ -1,0 +1,30 @@
+//Estilos generales
+
+.new-background-color{
+    --background: #06468f;
+}
+
+ion-title{
+    color: #fff;
+}
+
+
+
+ion-content {
+    --background: url('/assets/img/opcion2.jpg') no-repeat center center / cover;
+}
+
+
+//----------------------Lista-----------------------
+
+ion-list{
+    --ion-background-color: #06468f;
+}
+
+ion-item{
+    color: #fff;
+}
+
+ion-icon{
+    color: #fff;
+}
