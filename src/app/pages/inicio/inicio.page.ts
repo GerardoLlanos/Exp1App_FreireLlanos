@@ -17,12 +17,12 @@ export class InicioPage implements OnInit {
   componentes : Componentes[] = [
     {
       icon: 'fish-outline',
-      name: 'Descripción',
+      name: 'Información',
       redirecTo: '/descripcion'
     },
     {
       icon: 'person-outline',
-      name: 'Formulario',
+      name: 'Registrarse',
       redirecTo: '/formulario'
     },
   ];

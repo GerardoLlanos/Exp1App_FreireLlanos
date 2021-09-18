@@ -4,12 +4,12 @@
     <ion-buttons slot="start">
       <ion-back-button 
           defaultHref="/"
-          text="Back"
+          text="volver"
           mode="ios">
       </ion-back-button>
     </ion-buttons>
 
-    <ion-title>FORMULARIO</ion-title>
+    <ion-title>REGISTRARSE</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -41,7 +41,7 @@
       <ion-input type="tel" placeholder="Ejemplo: +56900000000"
                  name="telefono" [(ngModel)]= "usuario.telefono"
                  pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-s./0-9]*$"
-                 maxlength=12 required>
+                 maxlength=12 minlength=12 required>
       </ion-input>
     </ion-item>   
     
