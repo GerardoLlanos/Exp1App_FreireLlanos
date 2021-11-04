@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar class="new-background-color">
+    <ion-item class="itemitem">
+      <ion-icon class="icontitle" name="log-in-outline"></ion-icon>
+      <ion-title>LOGIN</ion-title>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-content>
+  <form action="">
+    <ion-item class="ionitem" lines="full">
+      <ion-icon class="iconinput" name="person-outline"></ion-icon>
+      <ion-label>Email</ion-label> 
+      <ion-input type="email" #email required placeholder="Ingresar Correo"></ion-input>
+    </ion-item>
+    <ion-item class="ionitem" lines="full">
+      <ion-icon class="iconinput" name="lock-closed-outline"></ion-icon>
+      <ion-label>Contraseña</ion-label> 
+      <ion-input type="password" #password required placeholder="Ingresar Contraseña"></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button class="loginbutton" type="submit" (click)="onLogin(email, password)"
+        expand="block">INGRESAR <ion-icon class="loginicon" name="arrow-forward-circle-outline"></ion-icon></ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button class="googlebutton" type="submit" color="danger" (click)="onLoginGoogle(email, password)"
+        expand="block">INGRESAR CON GOOGLE <ion-icon class="googlelogo" name="logo-google"></ion-icon></ion-button>
+      </ion-col>
+    </ion-row>
+
+    <p><a href="/registro">¿No tienes una cuenta? Registrate aquí</a></p>
+  </form>
+</ion-content>
