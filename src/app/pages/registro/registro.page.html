@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar class="new-background-color">
+    <ion-item class="itemitem">
+      <ion-icon class="icontitle" name="person-add-outline"></ion-icon>
+      <ion-title>REGISTRARSE</ion-title>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form action="">
+    <ion-item class="ionitem" lines="full">
+      <ion-icon class="iconinput" name="person-outline"></ion-icon>
+      <ion-label>Email</ion-label> 
+      <ion-input type="email" #email required placeholder="Ingresar Correo"></ion-input>
+    </ion-item>
+    <ion-item class="ionitem" lines="full">
+      <ion-icon class="iconinput" name="lock-closed-outline"></ion-icon>
+      <ion-label>Contraseña</ion-label> 
+      <ion-input type="password" #password required placeholder="Ingresar Contraseña"></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button class="registerbutton" type="submit" (click)="onRegister(email, password)"
+        expand="block">REGISTRARSE <ion-icon class="loginicon" name="arrow-forward-circle-outline"></ion-icon></ion-button>
+      </ion-col>
+    </ion-row>
+    <p><a href="/login">¿Ya tienes una cuenta? Ingresa aquí</a></p>
+  </form>
+</ion-content>

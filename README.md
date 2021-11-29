@@ -16,6 +16,9 @@ correctamente, las instalaremos en el siguiente orden:(sin comillas)
 4- Luego de instalar las 3 dependencias ya estará todo listo para poder ejecutar el proyecto sin problemas
 con el comando "ionic serve" o "ionic serve --lab", muchas gracias por su atención :).
 
+**Pruebas E2E** Abir la carpeta llamada "src del e2e", copiar el archivo llamado "prueba.e2e-spec" y pegarlo en el src del e2e de nuestro
+proyecto.
+
 Cristóbal Freire
 Gerardo Llanos
 vida submarina 002D
